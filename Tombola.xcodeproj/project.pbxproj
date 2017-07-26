@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D4BCD4F0E416AFDB86E3015 /* Pods_Tombola.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E3A27A3074B1EAF27434A2 /* Pods_Tombola.framework */; };
+		C8B8D5681F293BA800BBDFAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B8D5671F293BA800BBDFAC /* AppDelegate.swift */; };
+		C8B8D56A1F293BA800BBDFAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B8D5691F293BA800BBDFAC /* ViewController.swift */; };
+		C8B8D56D1F293BA800BBDFAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B8D56B1F293BA800BBDFAC /* Main.storyboard */; };
+		C8B8D5701F293BA800BBDFAC /* Tombola.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C8B8D56E1F293BA800BBDFAC /* Tombola.xcdatamodeld */; };
+		C8B8D5721F293BA800BBDFAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B8D5711F293BA800BBDFAC /* Assets.xcassets */; };
+		C8B8D5751F293BA800BBDFAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B8D5731F293BA800BBDFAC /* LaunchScreen.storyboard */; };
+		C8B8D5801F293BA900BBDFAC /* TombolaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B8D57F1F293BA900BBDFAC /* TombolaTests.swift */; };
+		F84857901B171D90AECA16EA /* Pods_TombolaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6726289B277A5F72D77B27 /* Pods_TombolaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8B8D57C1F293BA900BBDFAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8B8D55C1F293BA800BBDFAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8B8D5631F293BA800BBDFAC;
+			remoteInfo = Tombola;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B6726289B277A5F72D77B27 /* Pods_TombolaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TombolaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AC889D3C8413E55C3DBCA50 /* Pods-TombolaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TombolaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TombolaTests/Pods-TombolaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95B72001028724C729CDE901 /* Pods-Tombola.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tombola.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tombola/Pods-Tombola.release.xcconfig"; sourceTree = "<group>"; };
+		991E2F9AFF9E7C441E5C99A2 /* Pods-TombolaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TombolaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TombolaTests/Pods-TombolaTests.release.xcconfig"; sourceTree = "<group>"; };
+		A91E46B45B1A7F6113D83DBC /* Pods-Tombola.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tombola.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tombola/Pods-Tombola.debug.xcconfig"; sourceTree = "<group>"; };
+		C8B8D5641F293BA800BBDFAC /* Tombola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tombola.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B8D5671F293BA800BBDFAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8B8D5691F293BA800BBDFAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8B8D56C1F293BA800BBDFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8B8D56F1F293BA800BBDFAC /* Tombola.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tombola.xcdatamodel; sourceTree = "<group>"; };
+		C8B8D5711F293BA800BBDFAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8B8D5741F293BA800BBDFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8B8D5761F293BA800BBDFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8B8D57B1F293BA900BBDFAC /* TombolaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TombolaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B8D57F1F293BA900BBDFAC /* TombolaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TombolaTests.swift; sourceTree = "<group>"; };
+		C8B8D5811F293BA900BBDFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0E3A27A3074B1EAF27434A2 /* Pods_Tombola.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tombola.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8B8D5611F293BA800BBDFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4BCD4F0E416AFDB86E3015 /* Pods_Tombola.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B8D5781F293BA900BBDFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84857901B171D90AECA16EA /* Pods_TombolaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6350AF5101C00AD2DD17DB59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0E3A27A3074B1EAF27434A2 /* Pods_Tombola.framework */,
+				2B6726289B277A5F72D77B27 /* Pods_TombolaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1DB1BEF38139638811BD8DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A91E46B45B1A7F6113D83DBC /* Pods-Tombola.debug.xcconfig */,
+				95B72001028724C729CDE901 /* Pods-Tombola.release.xcconfig */,
+				7AC889D3C8413E55C3DBCA50 /* Pods-TombolaTests.debug.xcconfig */,
+				991E2F9AFF9E7C441E5C99A2 /* Pods-TombolaTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8B8D55B1F293BA800BBDFAC = {
+			isa = PBXGroup;
+			children = (
+				C8B8D5661F293BA800BBDFAC /* Tombola */,
+				C8B8D57E1F293BA900BBDFAC /* TombolaTests */,
+				C8B8D5651F293BA800BBDFAC /* Products */,
+				C1DB1BEF38139638811BD8DF /* Pods */,
+				6350AF5101C00AD2DD17DB59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C8B8D5651F293BA800BBDFAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8B8D5641F293BA800BBDFAC /* Tombola.app */,
+				C8B8D57B1F293BA900BBDFAC /* TombolaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8B8D5661F293BA800BBDFAC /* Tombola */ = {
+			isa = PBXGroup;
+			children = (
+				C8B8D5671F293BA800BBDFAC /* AppDelegate.swift */,
+				C8B8D5691F293BA800BBDFAC /* ViewController.swift */,
+				C8B8D56B1F293BA800BBDFAC /* Main.storyboard */,
+				C8B8D5711F293BA800BBDFAC /* Assets.xcassets */,
+				C8B8D5731F293BA800BBDFAC /* LaunchScreen.storyboard */,
+				C8B8D5761F293BA800BBDFAC /* Info.plist */,
+				C8B8D56E1F293BA800BBDFAC /* Tombola.xcdatamodeld */,
+			);
+			path = Tombola;
+			sourceTree = "<group>";
+		};
+		C8B8D57E1F293BA900BBDFAC /* TombolaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8B8D57F1F293BA900BBDFAC /* TombolaTests.swift */,
+				C8B8D5811F293BA900BBDFAC /* Info.plist */,
+			);
+			path = TombolaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8B8D5631F293BA800BBDFAC /* Tombola */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8B8D5841F293BA900BBDFAC /* Build configuration list for PBXNativeTarget "Tombola" */;
+			buildPhases = (
+				22D436D7A73036CFB3982980 /* [CP] Check Pods Manifest.lock */,
+				C8B8D5601F293BA800BBDFAC /* Sources */,
+				C8B8D5611F293BA800BBDFAC /* Frameworks */,
+				C8B8D5621F293BA800BBDFAC /* Resources */,
+				ED0629FC54FCEBD4337CF6DE /* [CP] Embed Pods Frameworks */,
+				6FF5224AA8F352779E76CBB2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tombola;
+			productName = Tombola;
+			productReference = C8B8D5641F293BA800BBDFAC /* Tombola.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8B8D57A1F293BA900BBDFAC /* TombolaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8B8D5871F293BA900BBDFAC /* Build configuration list for PBXNativeTarget "TombolaTests" */;
+			buildPhases = (
+				87B57BD69F67D15C9B08466E /* [CP] Check Pods Manifest.lock */,
+				C8B8D5771F293BA900BBDFAC /* Sources */,
+				C8B8D5781F293BA900BBDFAC /* Frameworks */,
+				C8B8D5791F293BA900BBDFAC /* Resources */,
+				785B520D6A9A7A5ECE72F6C9 /* [CP] Embed Pods Frameworks */,
+				8FF490D0896DD8F986F5823C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8B8D57D1F293BA900BBDFAC /* PBXTargetDependency */,
+			);
+			name = TombolaTests;
+			productName = TombolaTests;
+			productReference = C8B8D57B1F293BA900BBDFAC /* TombolaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8B8D55C1F293BA800BBDFAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Jo;
+				TargetAttributes = {
+					C8B8D5631F293BA800BBDFAC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					C8B8D57A1F293BA900BBDFAC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C8B8D5631F293BA800BBDFAC;
+					};
+				};
+			};
+			buildConfigurationList = C8B8D55F1F293BA800BBDFAC /* Build configuration list for PBXProject "Tombola" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8B8D55B1F293BA800BBDFAC;
+			productRefGroup = C8B8D5651F293BA800BBDFAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8B8D5631F293BA800BBDFAC /* Tombola */,
+				C8B8D57A1F293BA900BBDFAC /* TombolaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8B8D5621F293BA800BBDFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B8D5751F293BA800BBDFAC /* LaunchScreen.storyboard in Resources */,
+				C8B8D5721F293BA800BBDFAC /* Assets.xcassets in Resources */,
+				C8B8D56D1F293BA800BBDFAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B8D5791F293BA900BBDFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22D436D7A73036CFB3982980 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6FF5224AA8F352779E76CBB2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tombola/Pods-Tombola-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		785B520D6A9A7A5ECE72F6C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TombolaTests/Pods-TombolaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87B57BD69F67D15C9B08466E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FF490D0896DD8F986F5823C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TombolaTests/Pods-TombolaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED0629FC54FCEBD4337CF6DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tombola/Pods-Tombola-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8B8D5601F293BA800BBDFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B8D56A1F293BA800BBDFAC /* ViewController.swift in Sources */,
+				C8B8D5701F293BA800BBDFAC /* Tombola.xcdatamodeld in Sources */,
+				C8B8D5681F293BA800BBDFAC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B8D5771F293BA900BBDFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B8D5801F293BA900BBDFAC /* TombolaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8B8D57D1F293BA900BBDFAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8B8D5631F293BA800BBDFAC /* Tombola */;
+			targetProxy = C8B8D57C1F293BA900BBDFAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8B8D56B1F293BA800BBDFAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8B8D56C1F293BA800BBDFAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8B8D5731F293BA800BBDFAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8B8D5741F293BA800BBDFAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8B8D5821F293BA900BBDFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8B8D5831F293BA900BBDFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8B8D5851F293BA900BBDFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A91E46B45B1A7F6113D83DBC /* Pods-Tombola.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tombola/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jo.Tombola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C8B8D5861F293BA900BBDFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95B72001028724C729CDE901 /* Pods-Tombola.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tombola/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jo.Tombola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C8B8D5881F293BA900BBDFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AC889D3C8413E55C3DBCA50 /* Pods-TombolaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TombolaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jo.TombolaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tombola.app/Tombola";
+			};
+			name = Debug;
+		};
+		C8B8D5891F293BA900BBDFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 991E2F9AFF9E7C441E5C99A2 /* Pods-TombolaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TombolaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jo.TombolaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tombola.app/Tombola";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8B8D55F1F293BA800BBDFAC /* Build configuration list for PBXProject "Tombola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B8D5821F293BA900BBDFAC /* Debug */,
+				C8B8D5831F293BA900BBDFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8B8D5841F293BA900BBDFAC /* Build configuration list for PBXNativeTarget "Tombola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B8D5851F293BA900BBDFAC /* Debug */,
+				C8B8D5861F293BA900BBDFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C8B8D5871F293BA900BBDFAC /* Build configuration list for PBXNativeTarget "TombolaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B8D5881F293BA900BBDFAC /* Debug */,
+				C8B8D5891F293BA900BBDFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C8B8D56E1F293BA800BBDFAC /* Tombola.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C8B8D56F1F293BA800BBDFAC /* Tombola.xcdatamodel */,
+			);
+			currentVersion = C8B8D56F1F293BA800BBDFAC /* Tombola.xcdatamodel */;
+			path = Tombola.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C8B8D55C1F293BA800BBDFAC /* Project object */;
+}
