@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2D4BCD4F0E416AFDB86E3015 /* Pods_Tombola.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E3A27A3074B1EAF27434A2 /* Pods_Tombola.framework */; };
+		C8A63ADF1F3A4CAC00C6507D /* PricesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A63ADE1F3A4CAC00C6507D /* PricesManager.swift */; };
 		C8B8D5681F293BA800BBDFAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B8D5671F293BA800BBDFAC /* AppDelegate.swift */; };
 		C8B8D56A1F293BA800BBDFAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B8D5691F293BA800BBDFAC /* ViewController.swift */; };
 		C8B8D56D1F293BA800BBDFAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B8D56B1F293BA800BBDFAC /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 		95B72001028724C729CDE901 /* Pods-Tombola.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tombola.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tombola/Pods-Tombola.release.xcconfig"; sourceTree = "<group>"; };
 		991E2F9AFF9E7C441E5C99A2 /* Pods-TombolaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TombolaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TombolaTests/Pods-TombolaTests.release.xcconfig"; sourceTree = "<group>"; };
 		A91E46B45B1A7F6113D83DBC /* Pods-Tombola.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tombola.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tombola/Pods-Tombola.debug.xcconfig"; sourceTree = "<group>"; };
+		C8A63ADE1F3A4CAC00C6507D /* PricesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PricesManager.swift; sourceTree = "<group>"; };
 		C8B8D5641F293BA800BBDFAC /* Tombola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tombola.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B8D5671F293BA800BBDFAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8B8D5691F293BA800BBDFAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +90,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C8A63ADD1F3A49F100C6507D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C8A63ADE1F3A4CAC00C6507D /* PricesManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		C8B8D55B1F293BA800BBDFAC = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +121,7 @@
 		C8B8D5661F293BA800BBDFAC /* Tombola */ = {
 			isa = PBXGroup;
 			children = (
+				C8A63ADD1F3A49F100C6507D /* Model */,
 				C8B8D5671F293BA800BBDFAC /* AppDelegate.swift */,
 				C8B8D5691F293BA800BBDFAC /* ViewController.swift */,
 				C8B8D56B1F293BA800BBDFAC /* Main.storyboard */,
@@ -334,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8B8D56A1F293BA800BBDFAC /* ViewController.swift in Sources */,
+				C8A63ADF1F3A4CAC00C6507D /* PricesManager.swift in Sources */,
 				C8B8D5701F293BA800BBDFAC /* Tombola.xcdatamodeld in Sources */,
 				C8B8D5681F293BA800BBDFAC /* AppDelegate.swift in Sources */,
 			);
