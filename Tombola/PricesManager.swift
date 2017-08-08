@@ -16,16 +16,30 @@ class PricesManager {
     private(set) var prices: [String: Int] = [:]
     
     init() {
-        if let loadedPrices = UserDefaults.standard.dictionary(forKey: PriceManager.PriceListStorageKey) as? [String: Int] {
+        if let loadedPrices = UserDefaults.standard.dictionary(forKey: PricesManager.PriceListStorageKey) as? [String: Int] {
             self.prices = loadedPrices
         }
     }
     
     func save() {
-        UserDefaults.standard.set(prices, forKey: PriceManager.PriceListStorageKey)
+        UserDefaults.standard.set(prices, forKey: PricesManager.PriceListStorageKey)
     }
     
+    func decrement(forPrice price: String) {
+        let newCount = prices[price]! - 1
+        prices[price] = newCount
+        save()
+    }
     
+    ///Returns the prices that are still available
+    var availablePrices: [String] {
+        get {
+            let pricesNonZero = prices.filter({ pair in
+                return pair.value > 0
+            })
+            return pricesNonZero.map({$0.key})
+        }
+    }
     
     
 }
